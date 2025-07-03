@@ -5,6 +5,8 @@
 
 To run the project prototype, use the following commands in your terminal:
 
+- git clone or download the files
+
 - `cd frontend` — Navigate to the project directory
 - `npm i` — Installing dependencies
 - `npm run server` — Run server on one terminal
@@ -13,6 +15,7 @@ To run the project prototype, use the following commands in your terminal:
 - Create a new terminal without deleting previous one
 - `npm run start` — Run app on another terminal
 - Scan QR Code using Expo Go app
+- `https://expo.dev/go`: link for Expo Go app
 
 ---
 
