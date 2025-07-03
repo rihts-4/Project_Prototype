@@ -1,0 +1,18 @@
+# TODO List
+
+Connect(Recommend)
+Connect(Add)
+
+DONE
+
+Login
+Register
+Discover
+Filter through search bar
+Details
+Add User data saved in data in Accounts
+Change Account Screen to follow Mockup
+Add markers to Maps
+Make a Connects
+Friends, persistent
+Events

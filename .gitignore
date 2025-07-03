@@ -1,0 +1,55 @@
+# React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/android/app/build/
+/ios/build/
+/ios/Pods/
+/*.expo/
+.expo/
+.expo-shared/
+*.expo
+*.DS_Store
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea
+/captures
+output.json
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Flask
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+instance/
+.webassets-cache
+.env
+*.sqlite3
+*.db
+
+# VSCode
+.vscode/

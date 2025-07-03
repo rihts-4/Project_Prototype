@@ -1,0 +1,176 @@
+{
+    "users": [
+      {
+        "username": "adventure_alex",
+        "password": "hashed_password_123",
+        "interest_tags": ["hiking", "photography", "nature", "adventure"]
+      },
+      {
+        "username": "culture_sarah",
+        "password": "hashed_password_456",
+        "interest_tags": ["museums", "history", "art", "culture", "architecture"]
+      },
+      {
+        "username": "foodie_mike",
+        "password": "hashed_password_789",
+        "interest_tags": ["food", "restaurants", "local_cuisine", "markets"]
+      },
+      {
+        "username": "beach_lover",
+        "password": "hashed_password_101",
+        "interest_tags": ["beaches", "water_sports", "relaxation", "sunset"]
+      },
+      {
+        "username": "urban_explorer",
+        "password": "hashed_password_202",
+        "interest_tags": ["city_life", "nightlife", "shopping", "modern_architecture"]
+      },
+      {
+        "username": "family_traveler",
+        "password": "hashed_password_303",
+        "interest_tags": ["family_friendly", "parks", "entertainment", "educational"]
+      }
+    ],
+    "tourist_spots": [
+      {
+        "spot_id": "spot_001",
+        "name": "Sunset Peak Trail",
+        "coordinates": [35.6762, 139.6503],
+        "interest_tags": ["hiking", "nature", "adventure", "photography", "sunset"],
+        "price_of_entry": 0,
+        "pictures": ["sunset_peak_1.jpg", "sunset_peak_2.jpg", "sunset_peak_trail.jpg"],
+        "open_hours": "5:00 AM - 8:00 PM",
+        "accessibility": "Moderate difficulty - not wheelchair accessible",
+        "general_advice": "Bring water, wear proper hiking boots, best visited during sunset hours for spectacular views"
+      },
+      {
+        "spot_id": "spot_002",
+        "name": "National Art Museum",
+        "coordinates": [35.6695, 139.7574],
+        "interest_tags": ["museums", "art", "culture", "history", "educational"],
+        "price_of_entry": 1500,
+        "pictures": ["art_museum_exterior.jpg", "art_museum_gallery.jpg", "famous_painting.jpg"],
+        "open_hours": "9:00 AM - 6:00 PM (Closed Mondays)",
+        "accessibility": "Fully wheelchair accessible with elevators and ramps",
+        "general_advice": "Allow 2-3 hours for visit, audio guides available in multiple languages, photography not allowed in some galleries"
+      },
+      {
+        "spot_id": "spot_003",
+        "name": "Central Food Market",
+        "coordinates": [35.6586, 139.7454],
+        "interest_tags": ["food", "local_cuisine", "markets", "culture", "shopping"],
+        "price_of_entry": 0,
+        "pictures": ["food_market_entrance.jpg", "fresh_seafood.jpg", "local_vendors.jpg"],
+        "open_hours": "6:00 AM - 2:00 PM",
+        "accessibility": "Ground level access, can be crowded",
+        "general_advice": "Visit early morning for freshest selection, bring cash, try the famous tuna sashimi"
+      },
+      {
+        "spot_id": "spot_004",
+        "name": "Paradise Beach",
+        "coordinates": [35.6285, 139.7723],
+        "interest_tags": ["beaches", "water_sports", "relaxation", "sunset", "family_friendly"],
+        "price_of_entry": 500,
+        "pictures": ["paradise_beach_sunset.jpg", "beach_activities.jpg", "clear_water.jpg"],
+        "open_hours": "6:00 AM - 10:00 PM",
+        "accessibility": "Beach wheelchair available for rent",
+        "general_advice": "Sunscreen essential, lockers available, great for swimming and beach volleyball"
+      },
+      {
+        "spot_id": "spot_005",
+        "name": "Sky Tower Observatory",
+        "coordinates": [35.6594, 139.7005],
+        "interest_tags": ["city_life", "modern_architecture", "photography", "nightlife"],
+        "price_of_entry": 2000,
+        "pictures": ["sky_tower_exterior.jpg", "city_view_day.jpg", "city_view_night.jpg"],
+        "open_hours": "10:00 AM - 11:00 PM",
+        "accessibility": "Fully accessible with high-speed elevators",
+        "general_advice": "Book tickets online for discounts, best views at sunset and night, restaurant on top floor"
+      },
+      {
+        "spot_id": "spot_006",
+        "name": "Adventure Theme Park",
+        "coordinates": [35.6329, 139.8804],
+        "interest_tags": ["family_friendly", "entertainment", "adventure", "parks"],
+        "price_of_entry": 4500,
+        "pictures": ["theme_park_entrance.jpg", "roller_coaster.jpg", "family_fun.jpg"],
+        "open_hours": "9:00 AM - 8:00 PM (Extended hours on weekends)",
+        "accessibility": "Most attractions wheelchair accessible, assistance available",
+        "general_advice": "Purchase fast-pass for popular rides, bring comfortable shoes, lockers available throughout park"
+      },
+      {
+        "spot_id": "spot_007",
+        "name": "Historic Temple Complex",
+        "coordinates": [35.7148, 139.7967],
+        "interest_tags": ["history", "culture", "architecture", "educational", "photography"],
+        "price_of_entry": 300,
+        "pictures": ["temple_main_hall.jpg", "temple_garden.jpg", "traditional_architecture.jpg"],
+        "open_hours": "6:00 AM - 6:00 PM",
+        "accessibility": "Some areas have stairs, partial accessibility",
+        "general_advice": "Remove shoes before entering buildings, photography allowed in gardens only, guided tours available"
+      },
+      {
+        "spot_id": "spot_008",
+        "name": "Shopping District Plaza",
+        "coordinates": [35.6598, 139.7024],
+        "interest_tags": ["shopping", "city_life", "food", "nightlife", "modern_architecture"],
+        "price_of_entry": 0,
+        "pictures": ["shopping_plaza.jpg", "night_lights.jpg", "street_food.jpg"],
+        "open_hours": "10:00 AM - 11:00 PM",
+        "accessibility": "Fully accessible with elevators and ramps",
+        "general_advice": "Credit cards widely accepted, tax-free shopping available for tourists, great street food options"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "evt_001",
+        "name": "Cherry Blossom Festival",
+        "interest_tags": ["nature", "culture", "photography", "family_friendly", "seasonal"]
+      },
+      {
+        "event_id": "evt_002",
+        "name": "International Food Festival",
+        "interest_tags": ["food", "culture", "local_cuisine", "international", "entertainment"]
+      },
+      {
+        "event_id": "evt_003",
+        "name": "Art Gallery Night Walk",
+        "interest_tags": ["art", "culture", "nightlife", "museums", "educational"]
+      },
+      {
+        "event_id": "evt_004",
+        "name": "Beach Volleyball Tournament",
+        "interest_tags": ["beaches", "water_sports", "competition", "entertainment", "summer"]
+      },
+      {
+        "event_id": "evt_005",
+        "name": "Night Photography Workshop",
+        "interest_tags": ["photography", "educational", "nightlife", "city_life", "adventure"]
+      },
+      {
+        "event_id": "evt_006",
+        "name": "Family Fun Day",
+        "interest_tags": ["family_friendly", "entertainment", "parks", "educational", "children"]
+      },
+      {
+        "event_id": "evt_007",
+        "name": "Historic Walking Tour",
+        "interest_tags": ["history", "culture", "educational", "walking", "architecture"]
+      },
+      {
+        "event_id": "evt_008",
+        "name": "Sunset Hiking Adventure",
+        "interest_tags": ["hiking", "nature", "adventure", "sunset", "photography"]
+      },
+      {
+        "event_id": "evt_009",
+        "name": "Urban Architecture Tour",
+        "interest_tags": ["modern_architecture", "city_life", "educational", "photography", "design"]
+      },
+      {
+        "event_id": "evt_010",
+        "name": "Local Market Experience",
+        "interest_tags": ["food", "local_cuisine", "markets", "culture", "shopping"]
+      }
+    ]
+  }

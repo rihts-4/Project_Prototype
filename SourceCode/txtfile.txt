@@ -1,0 +1,19 @@
+Currently Done:
+
+w/ API Call
+Get All Users
+Get One User
+Login
+Register New User
+Delete User
+Get All TouristSpots/Events
+Get One TouristSpot/Event
+Add to Travel History(Tourist Spot Only)
+, Personal List(Tourist Spot and Events)
+**Duplicates Possible for the lists
+
+w/out API Call
+Update Interest_Tags **Probably no need
+
+To Do:
+When Getting Spots, check interest tags and get with at least 50% matching

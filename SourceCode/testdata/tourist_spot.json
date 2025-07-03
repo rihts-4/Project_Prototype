@@ -1,0 +1,1938 @@
+[
+  {
+    "spot_id": "spot_1",
+    "name": "Tokyo Skytree",
+    "description": "A 634-meter tall broadcasting tower with an observation deck offering panoramic views of Tokyo.",
+    "coordinates": [
+      35.71026,
+      139.81063
+    ],
+    "interest_tags": [
+      "Culture",
+      "Nightlife",
+      "Shopping"
+    ],
+    "price_of_entry": "Set Ticket (Observation Deck + Tembo Galleria):\n• Weekday: Adults 3,500 yen, Students 2,350 yen, Children 1,450 yen\n• Weekend: Adults 3,800 yen, Students 2,550 yen, Children 1,550 yen\nObservation Deck Only:\n• Weekday: Adults 2,400 yen, Students 1,550 yen, Children 950 yen\n• Weekend: Adults 2,600 yen, Students 1,650 yen, Children 1,000 yen",
+    "pictures": [
+      "images/tokyo_skytree_1.jpg",
+      "images/tokyo_skytree_2.jpg"
+    ],
+    "open_hours": "Weekday: 10:00 - 22:00 (last entry at 21:00)\nWeekend: 9:00 - 22:00 (last entry at 21:00)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Tokyo Skytree Station (Tobu Skytree Line)",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Try to book your ticket in advance to avoid long lines. Visit on a clear day for the best views."
+  },
+  {
+    "spot_id": "spot_2",
+    "name": "Osaka Castle",
+    "description": "Osaka Castle, built by Toyotomi Hideyoshi in the 16th century, is a historic site with a museum and observatory, surrounded by a park popular during cherry blossom season.",
+    "coordinates": [
+      34.687315,
+      135.525985
+    ],
+    "interest_tags": [
+      "History",
+      "Culture",
+      "Nature"
+    ],
+    "price_of_entry": "Adults: 1,200 yen\nUniversity/High school students: 600 yen (ID required)\nJunior high and younger: Free (ID required).",
+    "pictures": [
+      "images/OsakaCastle_image_1.jpg",
+      "images/OsakaCastle_image_2.jpg",
+      "images/OsakaCastle_image_3.jpg"
+    ],
+    "open_hours": "09:00 - 18:00 (last entry at 17:30)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Osakajokoen Station(JR Osaka Loop Line)",
+          "walking_time_minutes": "10 minutes"
+        },
+        {
+          "station_name": "Tanimachi 4-chome Station(Osaka Metro Tanimachi Line / Chuo Line)",
+          "walking_time_minutes": "7 minutes"
+        }
+      ]
+    },
+    "general_advice": "Wear comfortable shoes as the castle grounds are spacious. Visiting during cherry blossom season offers beautiful views. Arrive early to avoid crowds, especially on weekends and holidays."
+  },
+  {
+    "spot_id": "spot_3",
+    "name": "Okinawa Churaumi Aquarium",
+    "description": "Okinawa Churaumi Aquarium is one of Japan's largest and most popular aquariums, known for its massive Kuroshio Sea tank where whale sharks and manta rays swim majestically. Located within Ocean Expo Park, the aquarium features a variety of marine life from the waters surrounding Okinawa.",
+    "coordinates": [
+      26.694139,
+      127.877953
+    ],
+    "interest_tags": [
+      "Nature",
+      "Culture",
+      "Shopping"
+    ],
+    "price_of_entry": "Adults: 2,180 yen\nHigh school students: 1,440 yen\nChildren: 710 yen\nUnder 6: Free.",
+    "pictures": [
+      "images/ChuraumiAquarium_image_1.jpg",
+      "images/ChuraumiAquarium_image_2.jpg"
+    ],
+    "open_hours": "08:30 - 18:30 (last entry at 17:30)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Kinenkoenmae Bus Stop",
+          "walking_time_minutes": "10 minutes"
+        }
+      ]
+    },
+    "general_advice": "The aquarium is located far from the city center, so using a rental car or taking a bus is convenient."
+  },
+  {
+    "spot_id": "spot_4",
+    "name": "Ise Jingu",
+    "Description": "Ise Jingu is one of Japan's most sacred Shinto shrines, dedicated to the sun goddess Amaterasu. Surrounded by peaceful forests, it consists of two main areas, Naiku and Geku. With over 2,000 years of history.",
+    "coordinates": [
+      34.455529,
+      136.726506
+    ],
+    "interest_tags": [
+      "History",
+      "Culture",
+      "Nature"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/IseJingu_image_1.jpg",
+      "images/IseJingu_image_2.jpg",
+      "images/IseJingu_image_3.jpg"
+    ],
+    "open_hours": "Jan-Apr & Sep: 05:00 - 18:00\nMay-Aug: 05:00 - 19:00\nOct-Dec: 05:00 - 17:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Iseshi Station(JR and Kintetsu line)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit early in the morning for a quiet and spiritual experience. Wear comfortable shoes as the shrine grounds are large and involve walking. Photography is not allowed in certain sacred areas."
+  },
+  {
+    "spot_id": "spot_5",
+    "name": "Fushimi Inari Taisha",
+    "description": "Famous for its thousands of vermilion torii gates, this shrine is dedicated to the Shinto god of rice. It is one of Kyoto's most iconic sights.",
+    "coordinates": [
+      34.967146,
+      135.772695
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Nature"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/FushimiInariTaisha_image_1.jpg",
+      "images/FushimiInariTaisha_image_2.jpg",
+      "images/FushimiInariTaisha_image_3.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Inari Station (JR Nara Line)",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Be prepared for a long walk if you plan to reach the summit."
+  },
+  {
+    "spot_id": "spot_6",
+    "name": "Mt. Fuji",
+    "description": "Japan's highest mountain and a UNESCO World Heritage Site, known for its iconic symmetrical cone and as a popular hiking destination.",
+    "coordinates": [
+      35.360555,
+      138.727778
+    ],
+    "interest_tags": [
+      "Nature",
+      "Adventure"
+    ],
+    "price_of_entry": "4,000 yen (climbing fee).",
+    "pictures": [
+      "images/Fuji_image_1.jpg",
+      "images/Fuji_image_2.jpg"
+    ],
+    "open_hours": "July - early September (climbing season)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Fujinomiya Station",
+          "walking_time_minutes": "2 minutes + Direct bus to Fujinomiya 5th Station available (~90 minutes)"
+        },
+        {
+          "station_name": "Shin-Fuji Station",
+          "walking_time_minutes": "5 minutes + Seasonal bus to Fujinomiya 5th Station (~120 minutes)"
+        },
+        {
+          "station_name": "Fuji Station(JR Tokaido Main Line)",
+          "walking_time_minutes": "3 minutes + Bus to Fujinomiya area available (limited service)"
+        },
+        {
+          "station_name": "Mishima Station(JR Tokaido Shinkansen / Izuhakone Railwa)",
+          "walking_time_minutes": "5 minutes + Seasonal bus service to Fujinomiya 5th Station"
+        }
+      ]
+    },
+    "general_advice": "Climb during official season for safety. Bring warm clothes and plenty of water. Consider staying overnight at a mountain hut for sunrise viewing."
+  },
+  {
+    "spot_id": "spot_7",
+    "name": "Kinkaku-ji (Golden Pavilion)",
+    "description": "A Zen Buddhist temple in Kyoto famous for its beautiful golden exterior and reflection on the surrounding pond.",
+    "coordinates": [
+      35.0394,
+      135.7292
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Nature"
+    ],
+    "price_of_entry": "Adults (high school and above): 500 yen\nChildren (elementary/junior high): 300 yen\nUnder elementary: Free.",
+    "pictures": [
+      "images/Kinkakuji_image_1.jpg",
+      "images/Kinkakuji_image_2.jpg",
+      "images/Kinkakuji_image_3.jpg"
+    ],
+    "open_hours": "09:00 - 17:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Kinkakujimichi Bus Stop",
+          "walking_time_minutes": "2 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit in the morning for the best lighting. The site can get very crowded during peak tourist season. No entry inside the pavilion."
+  },
+  {
+    "spot_id": "spot_8",
+    "name": "Ginkaku-ji (Silver Pavilion)",
+    "description": "A Zen temple in Kyoto officially known as Jisho-ji. Despite its name, the pavilion is not covered in silver but is admired for its elegant simplicity and beautiful moss garden.",
+    "coordinates": [
+      35.026,
+      135.7986
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Nature"
+    ],
+    "price_of_entry": "Adults (high school and above): 500 yen\nChildren (elementary/junior high): 300 yen\nUnder elementary: Free.",
+    "pictures": [
+      "images/Ginkakuji_image_1.jpg",
+      "images/Ginkakuji_image_2.jpg"
+    ],
+    "open_hours": "March-November: 08:30 - 17:00\nDecember-February: 09:00 - 16:30",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Ginkakujimichi Bus stop",
+          "walking_time_minutes": "10 minutes"
+        }
+      ]
+    },
+    "general_advice": "Take a walk along the Philosopher's Path after your visit. Morning visits are less crowded and provide a serene atmosphere."
+  },
+  {
+    "spot_id": "spot_9",
+    "name": "Kiyomizu Temple",
+    "description": "A UNESCO World Heritage Site in Kyoto, famous for its wooden stage that juts out from the main hall, offering panoramic views of the city.",
+    "coordinates": [
+      34.9948,
+      135.7851
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Nature"
+    ],
+    "price_of_entry": "Adults: 500 yen\nChildren: 200 yen.",
+    "pictures": [
+      "images/kiyomizudera_1.jpg",
+      "images/kiyomizudera_3.jpg",
+      "images/kiyomizudera_2.jpg"
+    ],
+    "open_hours": "06:00 - 18:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Kiyomizu-Gojo Station (Keihan Line)",
+          "walking_time_minutes": "25 minutes"
+        }
+      ]
+    },
+    "general_advice": "Be prepared for a bit of uphill walking. Especially beautiful during cherry blossom and autumn seasons."
+  },
+  {
+    "spot_id": "spot_10",
+    "name": "Himeji Castle",
+    "description": "Japan's most spectacular surviving feudal-era castle, also known as the White Heron Castle. A UNESCO World Heritage Site.",
+    "coordinates": [
+      34.8394,
+      134.6939
+    ],
+    "interest_tags": [
+      "History",
+      "Culture"
+    ],
+    "price_of_entry": "Adults: 1,000 yen\nChildren: 300 yen.",
+    "pictures": [
+      "images/Himeji_Castle_image_1.jpg",
+      "images/Himeji_Castle_image_2.jpg",
+      "images/Himeji_Castle_image_3.jpg"
+    ],
+    "open_hours": "09:00 - 17:00 (last entry 16:00)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Himeji Station (JR)",
+          "walking_time_minutes": "15 minutes"
+        }
+      ]
+    },
+    "general_advice": "Wear comfortable shoes, there are many stairs. Visit early to avoid long waits, especially during spring."
+  },
+  {
+    "spot_id": "spot_11",
+    "name": "Shirakawa-go",
+    "description": "A UNESCO World Heritage village known for its traditional gassho-zukuri thatched roof houses and beautiful snowy scenery.",
+    "coordinates": [
+      36.2608,
+      136.8987
+    ],
+    "interest_tags": [
+      "Culture",
+      "Nature"
+    ],
+    "price_of_entry": "Free (some museums: ~300-500 yen).",
+    "pictures": [
+      "images/Shirakawa-go_image_1.jpg",
+      "images/Shirakawa-go_image_2.jpg",
+      "images/Shirakawa-go_image_3.jpg"
+    ],
+    "open_hours": "08:00 - 17:00 (last entry at 16:30)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Takayama Station + Nohi Bus",
+          "walking_time_minutes": "0 minutes"
+        }
+      ]
+    },
+    "general_advice": "Stay overnight in a traditional inn if possible. Winter illumination is especially popular."
+  },
+  {
+    "spot_id": "spot_12",
+    "name": "Tokyo Disneyland",
+    "description": "A world-famous Disney theme park featuring classic attractions, parades, and seasonal events.",
+    "coordinates": [
+      35.6329,
+      139.8804
+    ],
+    "interest_tags": [
+      "Shopping",
+      "Cuisine",
+      "Adventure"
+    ],
+    "price_of_entry": "Adults: 7,900-10,900 yen, Junior/High school students: 6,600-9,000 yen.\nElementary and younger: 4,700-6,500 yen.",
+    "pictures": [
+      "images/Tokyo_Disneyland_image_1.jpg",
+      "images/Tokyo_Disneyland_image_2.jpg",
+      "images/Tokyo_Disneyland_image_3.jpg"
+    ],
+    "open_hours": "Typically 09:00 - 21:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Maihama Station (JR Keiyo Line)",
+          "walking_time_minutes": "3 minutes"
+        }
+      ]
+    },
+    "general_advice": "Buy tickets online in advance. Check parade schedules. Expect crowds on weekends and holidays."
+  },
+  {
+    "spot_id": "spot_13",
+    "name": "Universal Studios Japan",
+    "description": "A theme park in Osaka offering rides and shows based on Hollywood movies, including attractions like Harry Potter and Minions.",
+    "coordinates": [
+      34.6654,
+      135.4324
+    ],
+    "interest_tags": [
+      "Cuisine",
+      "Adventure",
+      "Shopping"
+    ],
+    "price_of_entry": "Adults: 8,600-10,400 yen\nChildren: 5,600-6,500 yen.",
+    "pictures": [
+      "images/Universal_Studios_Japan_image_1.jpg",
+      "images/Universal_Studios_Japan_image_2.jpg"
+    ],
+    "open_hours": "Typically 09:00 - 21:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Universal City Station (JR Yumesaki Line)",
+          "walking_time_minutes": "4 minutes"
+        }
+      ]
+    },
+    "general_advice": "Buy Express Passes to skip long queues. Arrive early for popular rides."
+  },
+  {
+    "spot_id": "spot_14",
+    "name": "Fuji-Q Highland",
+    "description": "A thrill-seeker's amusement park near Mt. Fuji, known for its record-breaking roller coasters.",
+    "coordinates": [
+      35.4886,
+      138.7828
+    ],
+    "interest_tags": [
+      "Adventure",
+      "Nature",
+      "Culture"
+    ],
+    "price_of_entry": "Entry: Free, Ride Pass: 6,000-7,000 yen.",
+    "pictures": [
+      "images/hujiQhighland_1.jpg",
+      "images/hujiQhighland_2.jpg",
+      "images/hujiQhighland_3.jpg"
+    ],
+    "open_hours": "Typically 09:00 - 18:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Fujikyu-Highland Station",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Check weather before visiting. Some rides may be closed on windy days."
+  },
+  {
+    "spot_id": "spot_15",
+    "name": "Huis Ten Bosch",
+    "description": "A theme park in Nagasaki recreating a Dutch townscape with seasonal flower events and light shows.",
+    "coordinates": [
+      33.0831,
+      129.7881
+    ],
+    "interest_tags": [
+      "Culture",
+      "Shopping",
+      "Nightlife"
+    ],
+    "price_of_entry": "Adults: 7,600 yen, Middle school students: 6,600 yen, Children: 5,000 yen.\nPreschoolers: 3,800 yen, Seniors: 5,900 yen.",
+    "pictures": [
+      "images/huis_ten_bosch_1.jpg",
+      "images/huis_ten_bosch_2.jpg",
+      "images/huis_ten_bosch_3.jpg"
+    ],
+    "open_hours": "Weekday: 10:00 - 21:00\nWeekend: 10:00 - 22:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Hausutenbosu station(JR line)",
+          "walking_time_minutes": "7 minutes"
+        }
+      ]
+    },
+    "general_advice": "Stay until evening to enjoy the illuminations. Try Dutch-themed food and sweets."
+  },
+  {
+    "spot_id": "spot_16",
+    "name": "Nagashima Spa Land",
+    "description": "A large amusement park in Mie Prefecture featuring roller coasters, a water park, and hot spring facilities.",
+    "coordinates": [
+      35.0378,
+      136.7353
+    ],
+    "interest_tags": [
+      "Adventure",
+      "Cuisine",
+      "Shopping"
+    ],
+    "price_of_entry": "Adults: 5,800 yen, Elementary students: 4,400 yen.\nInfants: 2,700 yen, Seniors: 2,900 yen.",
+    "pictures": [
+      "images/nagashima_spaland_1.jpg",
+      "images/nagashima_spaland_2.jpg"
+    ],
+    "open_hours": "09:30 - 17:00 (varies by season)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Kuwana Station",
+          "walking_time_minutes": "Bus ~20 mins to venue"
+        }
+      ]
+    },
+    "general_advice": "Buy combo tickets for the amusement park and hot spring area. Avoid peak summer weekends."
+  },
+  {
+    "spot_id": "spot_17",
+    "name": "Yomiuriland",
+    "description": "An amusement park in Tokyo known for its winter illuminations and water park in summer.",
+    "coordinates": [
+      35.6218,
+      139.5186
+    ],
+    "interest_tags": [
+      "Adventure",
+      "Nightlife",
+      "Culture"
+    ],
+    "price_of_entry": "Adults: 5,800 yen\nJunior/High school students: 4,600 yen\nElementary students: 4,000 yen\nPreschoolers: 2,400 yen.",
+    "pictures": [
+      "images/yomiuriland_image_1.jpg",
+      "images/yomiuriland_image_2.jpg"
+    ],
+    "open_hours": "10:00 - 18:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Keio Yomiuriland Station",
+          "walking_time_minutes": "Gondola ~5 mins to venue"
+        }
+      ]
+    },
+    "general_advice": "Visit in winter for spectacular lights. Buy tickets online for discounts."
+  },
+  {
+    "spot_id": "spot_18",
+    "name": "Tobu World Square",
+    "description": "A theme park in Tochigi featuring miniature replicas of famous buildings from around the world.",
+    "coordinates": [
+      36.8126,
+      139.7202
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Shopping"
+    ],
+    "price_of_entry": "Adults: 2,800 yen\nChildren: 1,400 yen.",
+    "pictures": [
+      "images/tobu_world_square_3.jpg",
+      "images/tobu_world_square_1.jpg",
+      "images/tobu_world_square_2.jpg"
+    ],
+    "open_hours": "09:00 - 17:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Tobu World Square Station",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Great for kids and photo lovers. Allow 2–3 hours to explore."
+  },
+  {
+    "spot_id": "spot_19",
+    "name": "Enoshima Aquarium",
+    "description": "A modern aquarium near the beach in Kanagawa with jellyfish tanks, dolphin shows, and marine life exhibits.",
+    "coordinates": [
+      35.3084,
+      139.4809
+    ],
+    "interest_tags": [
+      "Nature",
+      "Culture",
+      "Cuisine"
+    ],
+    "price_of_entry": "Adults: 2,800 yen\nStudents: 1,800 yen\nStudents: 1,300 yen\nStudents: 1,300 yen\nPreschoolers: 900 yen.",
+    "pictures": [
+      "images/enoshima_aquarium_1.jpg",
+      "images/enoshima_aquarium_2.jpg"
+    ],
+    "open_hours": "09:00 - 17:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Katase-Enoshima Station (Odakyu Line)",
+          "walking_time_minutes": "3 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit in the morning to enjoy sea views and avoid crowds. Great for families with kids."
+  },
+  {
+    "spot_id": "spot_20",
+    "name": "Ishigaki Island",
+    "description": "A tropical island in Okinawa known for its stunning beaches, coral reefs, and rich Ryukyuan culture. Popular for snorkeling and diving.",
+    "coordinates": [
+      24.3448,
+      124.1572
+    ],
+    "interest_tags": [
+      "Beach",
+      "Nature",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/ishigaki_island_1.jpg",
+      "images/ishigaki_island_2.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Ishigaki Airport",
+          "walking_time_minutes": "Car or bus required to reach beaches"
+        }
+      ]
+    },
+    "general_advice": "Renting a car is the most convenient way to explore. Try local dishes like Ishigaki beef and Yaeyama soba."
+  },
+  {
+    "spot_id": "spot_21",
+    "name": "Enoshima",
+    "description": "A small island near Kamakura known for its beaches, shrines, observation tower, and sea caves. Popular as a day trip from Tokyo.",
+    "coordinates": [
+      35.3007,
+      139.4818
+    ],
+    "interest_tags": [
+      "Beach",
+      "Culture",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/enoshima_1.jpg",
+      "images/enoshima_2.jpg",
+      "images/enoshima_3.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Katase-Enoshima Station (Odakyu Line)",
+          "walking_time_minutes": "10 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit on weekdays to avoid crowds. Try Enoshima specialties like shirasu-don and explore the caves if weather permits."
+  },
+  {
+    "spot_id": "spot_22",
+    "name": "Tashirojima (Cat Island)",
+    "description": "An island in Miyagi Prefecture famous for its large population of friendly cats. Known as a 'cat paradise' and loved by animal lovers.",
+    "coordinates": [
+      38.2851,
+      141.4392
+    ],
+    "interest_tags": [
+      "Nature",
+      "Culture",
+      "Adventure"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Tashirojima_Cat_Island.jpg",
+      "images/Tashirojima_Cat_Island_2.jpg",
+      "images/Tashirojima_Cat_Island_3.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Ishinomaki Station + ferry to Tashirojima",
+          "walking_time_minutes": "0 minutes"
+        }
+      ]
+    },
+    "general_advice": "No accommodations on the island, so plan for a day trip. Do not feed or scare the cats. Bring your own food and drinks."
+  },
+  {
+    "spot_id": "spot_23",
+    "name": "Awaji Island",
+    "description": "A large island in Hyogo Prefecture connected by the Akashi Kaikyo Bridge. Known for its natural beauty, hot springs, and fresh seafood.",
+    "coordinates": [
+      34.4381,
+      134.8356
+    ],
+    "interest_tags": [
+      "Nature",
+      "Cuisine",
+      "Shopping"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/AwajiIsland_1.jpg",
+      "images/AwajiIsland_2.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Maiko Station + bus via Akashi Kaikyo Bridge",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Great destination for driving trips. Don't miss Awaji beef and onion-based dishes. Visit Naruto whirlpools nearby."
+  },
+  {
+    "spot_id": "spot_24",
+    "name": "Tokyo Tower",
+    "description": "A 333-meter red-and-white communications tower in Tokyo offering panoramic views, shops, and attractions.",
+    "coordinates": [
+      35.6586,
+      139.7454
+    ],
+    "interest_tags": [
+      "Culture",
+      "Shopping",
+      "Nightlife"
+    ],
+    "price_of_entry": "Main Deck: Adults 1,500 yen, High school students 1,200 yen, Children 900 yen, Preschoolers 600 yen.\nTop Deck Tour: Adults 3,500 yen, High school students 3,300 yen, Children 2,300 yen, Preschoolers 1,700 yen.",
+    "pictures": [
+      "images/TokyoTower_image_1.jpg",
+      "images/TokyoTower_image_2.jpg"
+    ],
+    "open_hours": "Main Deck: 09:00 - 23:00 (last entry at 22:30)\nTop Deck Tour: 09:00 - 22:45 (last entry at 22:15)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Akabanebashi Station (Toei Oedo Line)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit around sunset for a great city view."
+  },
+  {
+    "spot_id": "spot_25",
+    "name": "Shibuya Scramble Crossing",
+    "description": "One of the busiest pedestrian crossings in the world, symbolizing modern Tokyo with neon lights and vibrant crowds.",
+    "coordinates": [
+      35.6595,
+      139.7005
+    ],
+    "interest_tags": [
+      "Culture",
+      "Nightlife",
+      "Shopping"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/ShibuyaScrambleCrossing_1.jpg",
+      "images/ShibuyaScrambleCrossing_2.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Shibuya Station (JR, Tokyo Metro)",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Best viewed from above try cafes in nearby buildings. Great photo spot at night."
+  },
+  {
+    "spot_id": "spot_26",
+    "name": "Odaiba",
+    "description": "A man-made island in Tokyo Bay known for entertainment, shopping malls, scenic views, and futuristic architecture.",
+    "coordinates": [
+      35.6251,
+      139.7753
+    ],
+    "interest_tags": [
+      "Shopping",
+      "Culture",
+      "Nightlife"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Odaiba_1.jpg",
+      "images/Odaiba_2.jpg",
+      "images/Odaiba_3.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Daiba Station (Yurikamome Line)",
+          "walking_time_minutes": "2 minutes"
+        }
+      ]
+    },
+    "general_advice": "Ideal for a full-day visit. Don't miss teamLab Planets, shopping, and sunset by the Rainbow Bridge."
+  },
+  {
+    "spot_id": "spot_27",
+    "name": "Dotonbori",
+    "description": "A lively district in Osaka famous for neon lights, street food like takoyaki and okonomiyaki, and the Glico running man sign.",
+    "coordinates": [
+      34.6687,
+      135.5019
+    ],
+    "interest_tags": [
+      "Cuisine",
+      "Nightlife",
+      "Shopping"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Dotonbori_1.jpg",
+      "images/Dotonbori_2.jpg",
+      "images/Dotonbori_3.jpg"
+    ],
+    "open_hours": "Always open\nShops: ~10:00 - 22:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Namba Station (Subway, Nankai, Kintetsu)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Perfect for street food lovers. Best enjoyed at night when the signs are lit."
+  },
+  {
+    "spot_id": "spot_28",
+    "name": "Umeda Sky Building",
+    "description": "A futuristic skyscraper in Osaka with a rooftop Floating Garden Observatory offering 360-degree city views.",
+    "coordinates": [
+      34.7056,
+      135.4892
+    ],
+    "interest_tags": [
+      "Culture",
+      "Shopping",
+      "Nightlife"
+    ],
+    "price_of_entry": "Adults: 2,000 yen\nChildren: 500 yen.",
+    "pictures": [
+      "images/UmedaSkyBuilding_1.jpg",
+      "images/UmedaSkyBuilding_2.jpg"
+    ],
+    "open_hours": "09:30 - 22:30 (last entry at 22:00)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Osaka Station (JR)",
+          "walking_time_minutes": "7 minutes"
+        }
+      ]
+    },
+    "general_advice": "Come in the evening for night views. Basement features a retro-style food alley."
+  },
+  {
+    "spot_id": "spot_29",
+    "name": "Nagoya Castle",
+    "description": "One of Japan's most important castles, originally built in the early Edo period. Famous for its golden shachihoko ornaments.",
+    "coordinates": [
+      35.185,
+      136.8996
+    ],
+    "interest_tags": [
+      "History",
+      "Culture",
+      "Nature"
+    ],
+    "price_of_entry": "Adults: 500 yen\nChildren: Free.",
+    "pictures": [
+      "images/NagoyaCastel_1.jpg",
+      "images/NagoyaCastel_2.jpg"
+    ],
+    "open_hours": "09:00 - 16:30",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Nagoyajyo Station (Subway)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit in spring for cherry blossoms. Reconstruction of the main keep is underway, so check access information in advance."
+  },
+  {
+    "spot_id": "spot_30",
+    "name": "Nakasu",
+    "description": "Fukuoka's largest nightlife district, known for its riverside yatai (food stalls), bars, and entertainment.",
+    "coordinates": [
+      33.5914,
+      130.4107
+    ],
+    "interest_tags": [
+      "Cuisine",
+      "Nightlife",
+      "Culture"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Nakasu_1.jpg",
+      "images/Nakasu_2.jpg"
+    ],
+    "open_hours": "Generally from 18:00 - 2:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Nakasu-Kawabata Station (Subway)",
+          "walking_time_minutes": "0 minutes"
+        }
+      ]
+    },
+    "general_advice": "Try Hakata ramen from street stalls. Be aware that some nightlife venues have cover charges."
+  },
+  {
+    "spot_id": "spot_31",
+    "name": "Sapporo Clock Tower",
+    "description": "One of the oldest Western-style buildings in Hokkaido, symbolizing Sapporo's early development. Now a small museum.",
+    "coordinates": [
+      43.0639,
+      141.3534
+    ],
+    "interest_tags": [
+      "History",
+      "Culture"
+    ],
+    "price_of_entry": "Adults: 350 yen\nStudents: 150 yen (student ID required)\nHigh School And Below: Free (student ID required) yen.",
+    "pictures": [
+      "images/SapporoClockTower_1.jpg",
+      "images/SapporoClockTower_2.jpg"
+    ],
+    "open_hours": "08:45 - 17:10(last entry at 17:00)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Odori Station (Subway)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "A quick visit with good photo opportunities."
+  },
+  {
+    "spot_id": "spot_32",
+    "name": "Arashiyama",
+    "description": "A scenic district in western Kyoto known for its bamboo grove, riverside views, temples, and traditional atmosphere.",
+    "coordinates": [
+      35.0094,
+      135.6674
+    ],
+    "interest_tags": [
+      "Shopping",
+      "Culture",
+      "History"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Arashiyama_1.jpg",
+      "images/Arashiyama_2.jpg",
+      "images/Arashiyama_3.jpeg"
+    ],
+    "open_hours": "Always open\nTemples: typically 09:00 - 17:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Arashiyama Station (Hankyu Line)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit early in the morning to enjoy the bamboo grove without crowds. Don't miss the Togetsukyo Bridge and Tenryu-ji Temple."
+  },
+  {
+    "spot_id": "spot_33",
+    "name": "Kamikochi",
+    "description": "A scenic mountain valley in the Northern Japan Alps, known for its clear river, alpine scenery, and hiking trails.",
+    "coordinates": [
+      36.2456,
+      137.6314
+    ],
+    "interest_tags": [
+      "Nature",
+      "Adventure"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Kamikochi_1.jpg",
+      "images/Kamikochi_2.jpg"
+    ],
+    "open_hours": "Mid-April to Mid-November (closed in winter)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Shin-Shimashima Station + bus to Kamikochi",
+          "walking_time_minutes": "0 minutes"
+        }
+      ]
+    },
+    "general_advice": "Private cars are not allowed into Kamikochi. Use the shuttle bus. Early morning hikes offer the best views and fewer crowds."
+  },
+  {
+    "spot_id": "spot_34",
+    "name": "Tsukiji Outer Market",
+    "description": "A lively food and wholesale market in Tokyo, famous for its fresh seafood, street food, and Japanese kitchenware.",
+    "coordinates": [
+      35.6655,
+      139.7708
+    ],
+    "interest_tags": [
+      "Cuisine",
+      "Shopping"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/TsukijiOuterMarket_1.jpg",
+      "images/TsukijiOuterMarket_2.jpg"
+    ],
+    "open_hours": "05:00 - 14:00 (varies by shop)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Tsukiji Station (Tokyo Metro Hibiya Line)",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Go early for the freshest offerings. Many shops are closed on Sundays and holidays. Try sushi, tamagoyaki, and grilled seafood."
+  },
+  {
+    "spot_id": "spot_35",
+    "name": "Nara Park",
+    "description": "A large park in Nara where you can interact with freely roaming deer.",
+    "coordinates": [
+      34.6851,
+      135.8431
+    ],
+    "interest_tags": [
+      "Nature"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/NaraPark_1.jpg",
+      "images/NaraPark_2.jpg",
+      "images/NaraPark_3.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Nara Station(Kintetsu)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Buy deer crackers to feed the deer, but be cautious—they can get pushy"
+  },
+  {
+    "spot_id": "spot_36",
+    "name": "Mt Koya (Koyasan)",
+    "description": "A sacred mountain in Wakayama and the center of Shingon Buddhism. Offers temple lodging and spiritual experiences.",
+    "coordinates": [
+      34.2133,
+      135.5858
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Nature"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/MtKoya_2.jpg",
+      "images/MtKoya_1.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Gokurakubashi Station + cable car to Koyasan Station",
+          "walking_time_minutes": "0 minutes"
+        }
+      ]
+    },
+    "general_advice": "Stay overnight at a temple (shukubo) for a unique Buddhist experience. Be respectful of religious customs."
+  },
+  {
+    "spot_id": "spot_37",
+    "name": "Ginzan Onsen",
+    "description": "A picturesque hot spring town in Yamagata known for its historic Taisho-era buildings and romantic atmosphere, especially in winter.",
+    "coordinates": [
+      38.6101,
+      140.4121
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free (onsen use varies)",
+    "pictures": [
+      "images/GinzanOnsen_1.jpg",
+      "images/GinzanOnsen_2.jpg"
+    ],
+    "open_hours": "Always open\nBathing hours: 05:00 - 01:00 (next day)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Oishida Station + bus (~40 mins)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Stay overnight in a traditional ryokan. Ideal for winter visits with snow-covered scenery."
+  },
+  {
+    "spot_id": "spot_38",
+    "name": "Nikko Toshogu Shrine",
+    "description": "A lavishly decorated shrine dedicated to Tokugawa Ieyasu. Famous for its 'Three Wise Monkeys' and rich carvings.",
+    "coordinates": [
+      36.7577,
+      139.5998
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Nature"
+    ],
+    "price_of_entry": "Adults: 1,600 yen\nChildren: 550 yen.",
+    "pictures": [
+      "images/NikkoToshogu_1.jpg",
+      "images/NikkoToshogu_2.jpg"
+    ],
+    "open_hours": "April-October: 08:00 - 17:00\nNovember-March: 08:00 - 16:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Tobu-Nikko Station + bus",
+          "walking_time_minutes": "8 minutes"
+        }
+      ]
+    },
+    "general_advice": "Allow plenty of time to explore the entire shrine complex. Best during autumn foliage."
+  },
+  {
+    "spot_id": "spot_39",
+    "name": "Itsukushima Shrine (Miyajima)",
+    "description": "A UNESCO World Heritage site located on Miyajima Island. Famous for its torii gate that appears to float at high tide.",
+    "coordinates": [
+      34.2951,
+      132.3199
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Nature"
+    ],
+    "price_of_entry": "Adults: 300 yen\nStudents: 100 yen.",
+    "pictures": [
+      "images/ItsukushimaShrine_1.jpg",
+      "images/ItsukushimaShrine_2.jpg",
+      "images/ItsukushimaShrine_3.jpg"
+    ],
+    "open_hours": "06:30 - 17:30 (varies by season)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Miyajimaguchi Station + ferry",
+          "walking_time_minutes": "10 minutes"
+        }
+      ]
+    },
+    "general_advice": "Check tide times to see the torii gate at its most picturesque."
+  },
+  {
+    "spot_id": "spot_40",
+    "name": "Harajuku & Omotesando",
+    "description": "A vibrant Tokyo district blending youth fashion culture in Harajuku with upscale shopping in Omotesando.",
+    "coordinates": [
+      35.6694,
+      139.7041
+    ],
+    "interest_tags": [
+      "Shopping",
+      "Culture",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/HarajyukuOmotesando_1.jpg",
+      "images/HarajyukuOmotesando_2.jpg"
+    ],
+    "open_hours": "Shops typically 11:00 - 20:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Harajuku Station / Omotesando Station",
+          "walking_time_minutes": "0 minutes"
+        }
+      ]
+    },
+    "general_advice": "Explore Takeshita Street for unique fashion, then stroll Omotesando for architecture and high-end brands."
+  },
+  {
+    "spot_id": "spot_41",
+    "name": "Nakano Broadway",
+    "description": "A shopping complex in Tokyo known as a paradise for anime, manga, and pop culture enthusiasts.",
+    "coordinates": [
+      35.7074,
+      139.6654
+    ],
+    "interest_tags": [
+      "Shopping",
+      "Culture"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/NakanoBroadway_1.jpg",
+      "images/NakanoBroadway_2.jpg"
+    ],
+    "open_hours": "Stores generally open 10:00 - 20:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Nakano Station (JR Chuo Line)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Ideal for collectors. Many hidden shops on upper floors."
+  },
+  {
+    "spot_id": "spot_42",
+    "name": "Kobe Harborland",
+    "description": "A scenic waterfront district in Kobe with shopping, dining, and a romantic night view. Popular for couples and families.",
+    "coordinates": [
+      34.6803,
+      135.1781
+    ],
+    "interest_tags": [
+      "Shopping",
+      "Nightlife",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/KobeHarborland_1.jpg",
+      "images/KobeHarborland_2.jpg"
+    ],
+    "open_hours": "shops: 10:00 - 20:00, restaurants: 11:00 - 22:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Kobe Station (JR)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit at sunset or night for beautiful illumination. Great dining options with harbor views."
+  },
+  {
+    "spot_id": "spot_43",
+    "name": "Minato Mirai",
+    "description": "A waterfront urban area in Yokohama known for its night view, shopping, dining, and attractions.",
+    "coordinates": [
+      35.4575,
+      139.6351
+    ],
+    "interest_tags": [
+      "Nightlife",
+      "Shopping",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Minatomirai_1.jpg",
+      "images/Minatomirai_2.jpg",
+      "images/Minatomirai_3.jpg"
+    ],
+    "open_hours": "Shops:\n  • Monday-Thursday: 10:00 - 20:00\n  • Friday-Sunday & Holidays: 10:00 - 21:00\nRestaurants: 11:00 - 23:00 (daily)\nFood Court (4F):\n  • Monday-Thursday: 10:00 - 20:00\n  • Friday-Sunday & Holidays: 10:00 - 21:00\nCinema (5F): 09:00 - 23:00 (daily)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Minato Mirai Station (Minatomirai Line)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit at night for the best views. The area is great for couples and families."
+  },
+  {
+    "spot_id": "spot_44",
+    "name": "Roppongi Hills",
+    "description": "A luxury urban complex in central Tokyo known for shopping, fine dining, art museums, and city views from Mori Tower.",
+    "coordinates": [
+      35.6605,
+      139.7292
+    ],
+    "interest_tags": [
+      "Nightlife",
+      "Shopping",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Roppongihiruzu_1.jpg",
+      "images/Roppongihiruzu_2.jpg"
+    ],
+    "open_hours": "Shops: 11:00 - 21:00, Restaurants: 11:00 - 23:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Roppongi Station (Tokyo Metro Hibiya Line)",
+          "walking_time_minutes": "0 minutes"
+        }
+      ]
+    },
+    "general_advice": "Great for an evening stroll, art, and a rooftop city view."
+  },
+  {
+    "spot_id": "spot_45",
+    "name": "Susukino",
+    "description": "The largest entertainment district in Hokkaido, known for its nightlife, izakayas, ramen, and neon lights.",
+    "coordinates": [
+      43.0546,
+      141.3533
+    ],
+    "interest_tags": [
+      "Nightlife",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Susukino_1.jpg",
+      "images/Susukino_2.jpg"
+    ],
+    "open_hours": "supermarket: 10:00 - 21:00, food_and_amusement: 11:00 - 23:00, dining_and_bar: 11:00 - 24:00, susukino_street_food_stalls: 17:30 - 23:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Susukino Station (Subway Namboku Line)",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Try miso ramen and fresh seafood. Be aware of busy weekend crowds."
+  },
+  {
+    "spot_id": "spot_46",
+    "name": "Hakodate Morning Market",
+    "description": "A popular seafood market in Hokkaido offering fresh seafood bowls, grilled fish, and local produce.",
+    "coordinates": [
+      41.7736,
+      140.7265
+    ],
+    "interest_tags": [
+      "Cuisine",
+      "Shopping"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/HakodateMorningMarket_1.jpg",
+      "images/HakodateMorningMarket_2.jpg"
+    ],
+    "open_hours": "05:00 - 14:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Hakodate Station (JR)",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Go early for the best selection. Try the live squid fishing experience."
+  },
+  {
+    "spot_id": "spot_47",
+    "name": "Izumo Taisha",
+    "description": "One of the oldest and most important Shinto shrines in Japan, famous for en-musubi (marriage bonds).",
+    "coordinates": [
+      35.401,
+      132.6858
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Spiritual"
+    ],
+    "price_of_entry": "Temple: Free\nTreasure_Hall - Adult: 300 yen\nTreasure_Hall - Student: 200 yen\nTreasure_Hall - Elementary School Students And Junior High School Student: 100 yen.",
+    "pictures": [
+      "images/Izumotaisha_1.jpg",
+      "images/Izumotaisha_2.jpg",
+      "images/Izumotaisha_3.jpg"
+    ],
+    "open_hours": "worship_area: 06:00 - 19:00, treasure_hall: 08:30 - 16:30",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Izumo Taisha-mae Station (Ichibata Railway)",
+          "walking_time_minutes": "7 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit with a respectful attitude. Many people come here to pray for love and connection."
+  },
+  {
+    "spot_id": "spot_48",
+    "name": "Yakushima",
+    "description": "A subtropical island in Kagoshima Prefecture known for its ancient cedar forests and biodiversity. A UNESCO World Heritage Site.",
+    "coordinates": [
+      30.358,
+      130.5289
+    ],
+    "interest_tags": [
+      "Nature",
+      "Adventure"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/Yakushima_1.jpg",
+      "images/Yakushima_2.jpg",
+      "images/Yakushima_3.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Yakushima Airport / Miyanoura Port (access by air or ferry)",
+          "walking_time_minutes": "0 minutes"
+        }
+      ]
+    },
+    "general_advice": "Wear proper hiking gear and be prepared for rain. Great for multi-day trekking and nature photography."
+  },
+  {
+    "spot_id": "spot_49",
+    "name": "Asakusa",
+    "description": "A historic district in Tokyo famous for Senso-ji Temple, Kaminarimon Gate, and Nakamise shopping street.",
+    "coordinates": [
+      35.7148,
+      139.7967
+    ],
+    "interest_tags": [
+      "Culture",
+      "Shopping",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "",
+      ""
+    ],
+    "open_hours": "Sensoji Main Hall:\n  • April-September: 06:00 - 17:00\n  • October-March: 06:30 - 17:00\nNakamise Shops: 08:00 - 17:00~20:30",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Asakusa Station (Tokyo Metro Ginza Line, Toei Asakusa Line)",
+          "walking_time_minutes": "2 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit early to enjoy the temple without crowds. Great spot for traditional snacks and souvenirs."
+  },
+  {
+    "spot_id": "spot_50",
+    "name": "Oarai Isosaki Shrine (Kamiiso no Torii)",
+    "description": "A seaside shrine in Ibaraki known for its torii gate standing dramatically on a rock in the ocean.",
+    "coordinates": [
+      36.3197,
+      140.5833
+    ],
+    "interest_tags": [
+      "Culture",
+      "History",
+      "Nature"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/OaraiIsosakiShrine_1.jpg",
+      "images/OaraiIsosakiShrine_2.jpg"
+    ],
+    "open_hours": "may_to_august: 05:30 - 18:00, september_to_april: 06:00 - 17:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Oarai Station (Kashima Rinkai Railway) + Bus",
+          "walking_time_minutes": "0 minutes"
+        }
+      ]
+    },
+    "general_advice": "Best viewed at sunrise. Be careful on slippery rocks when approaching for photos."
+  },
+  {
+    "spot_id": "spot_51",
+    "name": "Meiji Jingu",
+    "description": "A major Shinto shrine in Tokyo dedicated to Emperor Meiji and Empress Shoken, surrounded by a lush forest in the heart of the city.",
+    "coordinates": [
+      35.6764,
+      139.6993
+    ],
+    "interest_tags": [
+      "Culture",
+      "Nature",
+      "History"
+    ],
+    "price_of_entry": "Shrine: Free\nTreasure_Museum - Adult: 500 yen.",
+    "pictures": [
+      "images/Meijijingu_1.jpg",
+      "images/Meijijingu_2.jpg",
+      "images/Meijijingu_3.jpg"
+    ],
+    "open_hours": "Sunrise to Sunset",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Harajuku Station (JR Yamanote Line) / Meiji-Jingumae Station (Tokyo Metro)",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Visit early morning for a peaceful experience. Great spot for a quiet walk and traditional shrine rituals."
+  },
+  {
+    "spot_id": "spot_52",
+    "name": "Kaiyukan Aquarium",
+    "description": "One of the largest public aquariums in the world, located in Osaka, featuring marine life from the Pacific Rim.",
+    "coordinates": [
+      34.6545,
+      135.4283
+    ],
+    "interest_tags": [
+      "Nature",
+      "Adventure"
+    ],
+    "price_of_entry": "Adults: 2,700 - 3,500 yen\nChildren: 1,400 - 1,800 yen\nPreschoolers: 700 - 900 yen.",
+    "pictures": [
+      "images/Kaiyukan_1.jpg",
+      "images/Kaiyukan_2.jpg",
+      "images/Kaiyukan_3.jpg"
+    ],
+    "open_hours": "every_day: 10:00 - 20:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Osakako Minato Station (Chuo Line)",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Buy tickets online to avoid queues. Great for families and marine lovers."
+  },
+  {
+    "spot_id": "spot_53",
+    "name": "Gran Green Osaka",
+    "description": "A large urban park and complex next to Osaka Station featuring lush lawns, fountains, shops, restaurants and a hotel.",
+    "coordinates": [
+      34.7023,
+      135.4959
+    ],
+    "interest_tags": [
+      "Nature",
+      "Shopping",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/GranGreenOsaka_1.jpg",
+      "images/GranGreenOsaka_2.jpg"
+    ],
+    "open_hours": "Always open",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Osaka Station (JR)",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Great for picnic, shopping and food. Popular spot since opening 2024."
+  },
+  {
+    "spot_id": "spot_54",
+    "name": "Tenjinbashisuji Shopping Street",
+    "description": "At ~2.6 km, Japan's longest shopping arcade—with shops, eateries, local vibe, and Osaka Tenmangu Shrine nearby.",
+    "coordinates": [
+      34.7018,
+      135.5035
+    ],
+    "interest_tags": [
+      "Shopping",
+      "Cuisine"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/enjinbashisujiShoppingStreet_1.jpg",
+      "images/enjinbashisujiShoppingStreet_2.jpg"
+    ],
+    "open_hours": "Varies by shop",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Ogimachi Station",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Enjoy food, shopping and shrine visit. Try street food and stand-up bars "
+  },
+  {
+    "spot_id": "spot_55",
+    "name": "Osaka Tenmangu Shrine",
+    "description": "A historic shrine founded in 949, dedicated to the god of learning Sugawara no Michizane. Hosts the Tenjin Festival.",
+    "coordinates": [
+      34.703,
+      135.4989
+    ],
+    "interest_tags": [
+      "Culture",
+      "History"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/OsakaTenmanguShrine_1.jpg",
+      "images/OsakaTenmanguShrine_2.jpg"
+    ],
+    "open_hours": "09:00-17:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Tenmangu Station(JR line)",
+          "walking_time_minutes": "4 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit during Tenjin Matsuri in July for a lively festival."
+  },
+  {
+    "spot_id": "spot_56",
+    "name": "Kuromon Market",
+    "description": "A lively market known for fresh seafood, street food, and traditional Osaka cuisine.",
+    "coordinates": [
+      34.665394,
+      135.50836
+    ],
+    "interest_tags": [
+      "Cuisine",
+      "Shopping"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/KuronomonMarket_1.jpg",
+      "images/KuronomonMarket_2.jpg"
+    ],
+    "open_hours": "09:00 - 18:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Nippombashi Station(Kintetsu)",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Bring cash, as many vendors may not accept cards. Try the grilled scallops and wagyu skewers."
+  },
+  {
+    "spot_id": "spot_57",
+    "name": "America village",
+    "description": "A youthful, trendy neighborhood with fashion boutiques, vintage stores, cafes, and street art.",
+    "coordinates": [
+      34.669089,
+      135.4994
+    ],
+    "interest_tags": [
+      "Shopping",
+      "Culture",
+      "Nightlife"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/AmericaMura_1.jpg",
+      "images/AmericaMura_2.jpg"
+    ],
+    "open_hours": "Most shops 11:00 - 20:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Shinsaibashi Station",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Best visited in the afternoon or early evening for lively atmosphere. Great place for unique street fashion."
+  },
+  {
+    "spot_id": "spot_58",
+    "name": "Expo 2025 Osaka Kansai",
+    "description": "A global exposition scheduled to be held in Osaka's Yumeshima Island, showcasing innovations in health, technology, and sustainability.",
+    "coordinates": [
+      34.639095,
+      135.395903
+    ],
+    "interest_tags": [
+      "Culture",
+      "Shopping",
+      "Cuisine"
+    ],
+    "price_of_entry": "Weekday Ticket: Adults 3,500 yen, Youth 3,500 yen, Children 1,500 yen.\nNight Ticket: Adults 3,700 yen, Youth 2,000 yen, Children 1,000 yen.\nOne Day Ticket: Adults 7,500 yen, Youth 4,200 yen, Children 1,800 yen.",
+    "pictures": [
+      "images/OsakaBanpaku2025_1.jpg",
+      "images/OsakaBanpaku2025_2.jpg",
+      "images/OsakaBanpaku2025_3.jpg"
+    ],
+    "open_hours": "09:00 - 22:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Yumeshima Station",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Check the official website for the latest updates and ticket information as the event approaches."
+  },
+  {
+    "spot_id": "spot_59",
+    "name": "Solaniwa Onsen Osaka Bay Tower",
+    "description": "A large onsen theme park with traditional Japanese-style baths, food, and entertainment.",
+    "coordinates": [
+      34.667427,
+      135.450281
+    ],
+    "interest_tags": [
+      "Culture"
+    ],
+    "price_of_entry": "2310 - 3080",
+    "pictures": [
+      "images/OsakaBanpaku2025_2.jpg",
+      "images/OsakaBanpaku2025_3.jpg",
+      "images/SolaniwaOnsen_1.jpg"
+    ],
+    "open_hours": "11:00 - 23:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Bentencho Station",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Tattoos may need to be covered. Bring a change of clothes if you plan to stay for several hours."
+  },
+  {
+    "spot_id": "spot_60",
+    "name": "Abeno Harukas",
+    "description": "Japan's tallest skyscraper with an observation deck, department store, art museum, and hotel.",
+    "coordinates": [
+      34.645429,
+      135.513797
+    ],
+    "interest_tags": [
+      "Shopping",
+      "Cuisine"
+    ],
+    "price_of_entry": "Adults: 2,000 yen\nJunior High And High School: 1,200 yen\nElementary School: 700 yen\nPreschool: 500 yen\nUnder 4: Free.",
+    "pictures": [
+      "images/AbenoHarukasu_1.jpg",
+      "images/AbenoHarukasu_2.jpg"
+    ],
+    "open_hours": "09:00 - 22:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Tennouji Station",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Visit in the late afternoon to catch both day and night views. Try the rooftop café for a relaxing break."
+  },
+  {
+    "spot_id": "spot_61",
+    "name": "Expo '70 Commemorative Park",
+    "description": "A spacious park built on the site of the 1970 World Expo, featuring the famous Tower of the Sun and beautiful seasonal gardens.",
+    "coordinates": [
+      34.819944,
+      135.528997
+    ],
+    "interest_tags": [
+      "Nature",
+      "History",
+      "Culture"
+    ],
+    "price_of_entry": "Children: 80 yen.",
+    "pictures": [
+      "images/Banpaku_1.jpg",
+      "images/Banpaku_2.jpg",
+      "images/Banpaku_3.jpg"
+    ],
+    "open_hours": "09:30 - 17:00 (last entry 16:30)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Banpaku-Kinen-Koen Station",
+          "walking_time_minutes": "5 minutes"
+        }
+      ]
+    },
+    "general_advice": "Plan at least half a day. Ideal for picnics, walking, and visiting the Tower of the Sun museum."
+  },
+  {
+    "spot_id": "spot_62",
+    "name": "Sumiyoshi Taisha Shrine",
+    "description": "One of Japan's oldest Shinto shrines, known for its unique architectural style and sacred arched bridge.",
+    "coordinates": [
+      34.612083,
+      135.486722
+    ],
+    "interest_tags": [
+      "Culture",
+      "History"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/SumiyoshiTaisha_1.jpg",
+      "images/SumiyoshiTaisha_2.jpg"
+    ],
+    "open_hours": "06:00 - 17:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Sumiyoshitorii-mae Station",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Visit early to avoid crowds. Photography is allowed but be respectful of worshippers."
+  },
+  {
+    "spot_id": "spot_63",
+    "name": "Osaka Korean Town",
+    "description": "A vibrant area filled with Korean restaurants, shops, and cultural goods, reflecting the local Korean community.",
+    "coordinates": [
+      34.655379,
+      135.542003
+    ],
+    "interest_tags": [
+      "Cuisine",
+      "Shopping",
+      "Culture"
+    ],
+    "price_of_entry": "Free",
+    "pictures": [
+      "images/KoreanTown_1.jpg",
+      "images/KoreanTown_2.jpgg"
+    ],
+    "open_hours": "11:00 - 17:00 (varies by shop)",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Tsuruhashi Station",
+          "walking_time_minutes": "10 minutes"
+        }
+      ]
+    },
+    "general_advice": "Try Korean street food like hotteok and tteokbokki. Weekends can be crowded."
+  },
+  {
+    "spot_id": "spot_64",
+    "name": "Tennoji Zoo",
+    "description": "One of Japan's oldest zoos, home to over 1,000 animals including lions, elephants, and koalas.",
+    "coordinates": [
+      34.654823,
+      135.512406
+    ],
+    "interest_tags": [
+      "Nature",
+      "Shopping"
+    ],
+    "price_of_entry": "",
+    "pictures": [
+      "images/TennojiZoo_1.jpg",
+      "images/TennojiZoo_2.jpg",
+      "images/TennojiZoo_3.jpg"
+    ],
+    "open_hours": "09:30 - 17:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Dobutsuen-mae Station",
+          "walking_time_minutes": "6 minutes"
+        }
+      ]
+    },
+    "general_advice": "Bring a hat in summer. Combine with a visit to nearby Shinsekai and Tsutenkaku."
+  },
+  {
+    "spot_id": "spot_65",
+    "name": "Spa World",
+    "description": "A massive hot spring theme park with themed baths from different countries, including Rome and Finland.",
+    "coordinates": [
+      34.652457,
+      135.50627
+    ],
+    "interest_tags": [
+      "Cusing",
+      "Adventure"
+    ],
+    "price_of_entry": "With Pool:\n• Weekday: Adults 2,000 yen, Children 1,200 yen\n• Weekend/Holiday: Adults 2,500 yen, Children 1,500 yen\nWithout Pool: Adults 1,500 yen, Children 1,000 yen.",
+    "pictures": [
+      "images/SpaWorld_1.jpg",
+      "images/SpaWorld_2.jpg",
+      "images/SpaWorld_3.jpg"
+    ],
+    "open_hours": "10:00 - 22:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Dobutsuen-mae Station",
+          "walking_time_minutes": "1 minute"
+        }
+      ]
+    },
+    "general_advice": "Some areas are gender-separated and rotate monthly. Tattoos must be covered."
+  },
+  {
+    "spot_id": "spot_66",
+    "name": "Tsutenkaku Tower",
+    "description": "A landmark observation tower in the Shinsekai district, offering panoramic views and nostalgic atmosphere.",
+    "coordinates": [
+      34.6525,
+      135.506042
+    ],
+    "interest_tags": [
+      "Culture",
+      "Shopping"
+    ],
+    "price_of_entry": "Adults: 1,200 yen\nChildren: 600 yen.",
+    "pictures": [
+      "images/TutenkakuTower_1.jpg",
+      "images/TutenkakuTower_2.jpg",
+      "images/TutenkakuTower_3.jpg"
+    ],
+    "open_hours": "10:00 - 20:00",
+    "accessibility": {
+      "closest_stations": [
+        {
+          "station_name": "Ebisucho Station",
+          "walking_time_minutes": "3 minutes"
+        }
+      ]
+    },
+    "general_advice": "Visit at night for neon lights. Look for the Billiken statue for good luck!"
+  }
+]

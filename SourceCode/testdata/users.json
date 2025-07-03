@@ -1,0 +1,917 @@
+{
+  "users": [
+    {
+      "username": "Bot_1",
+      "password": "pw_1",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Culture",
+        "Nightlife",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_2",
+      "password": "pw_2",
+      "interest_tags": [
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_3",
+      "password": "pw_3",
+      "interest_tags": [
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_4",
+      "password": "pw_4",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_5",
+      "password": "pw_5",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Nightlife"
+      ]
+    },
+    {
+      "username": "Bot_6",
+      "password": "pw_6",
+      "interest_tags": [
+        "Beach",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_7",
+      "password": "pw_7",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_8",
+      "password": "pw_8",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "Culture",
+        "History",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_9",
+      "password": "pw_9",
+      "interest_tags": [
+        "Culture",
+        "Nightlife",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_10",
+      "password": "pw_10",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_11",
+      "password": "pw_11",
+      "interest_tags": [
+        "Adventure",
+        "Culture",
+        "History",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_12",
+      "password": "pw_12",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Culture",
+        "Nightlife",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_13",
+      "password": "pw_13",
+      "interest_tags": [
+        "Nature",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_14",
+      "password": "pw_14",
+      "interest_tags": [
+        "Beach",
+        "Adventure"
+      ]
+    },
+    {
+      "username": "Bot_15",
+      "password": "pw_15",
+      "interest_tags": [
+        "Beach",
+        "Nature",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_16",
+      "password": "pw_16",
+      "interest_tags": [
+        "Beach",
+        "Culture",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_17",
+      "password": "pw_17",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_18",
+      "password": "pw_18",
+      "interest_tags": [
+        "Nature",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_19",
+      "password": "pw_19",
+      "interest_tags": [
+        "Adventure"
+      ]
+    },
+    {
+      "username": "Bot_20",
+      "password": "pw_20",
+      "interest_tags": [
+        "Adventure",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_21",
+      "password": "pw_21",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_22",
+      "password": "pw_22",
+      "interest_tags": [
+        "Culture"
+      ]
+    },
+    {
+      "username": "Bot_23",
+      "password": "pw_23",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_24",
+      "password": "pw_24",
+      "interest_tags": [
+        "Adventure"
+      ]
+    },
+    {
+      "username": "Bot_25",
+      "password": "pw_25",
+      "interest_tags": [
+        "Adventure"
+      ]
+    },
+    {
+      "username": "Bot_26",
+      "password": "pw_26",
+      "interest_tags": [
+        "Nature",
+        "Shopping"
+      ]
+    },
+    {
+      "username": "Bot_27",
+      "password": "pw_27",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Culture",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_28",
+      "password": "pw_28",
+      "interest_tags": [
+        "Beach",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_29",
+      "password": "pw_29",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_30",
+      "password": "pw_30",
+      "interest_tags": [
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_31",
+      "password": "pw_31",
+      "interest_tags": [
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_32",
+      "password": "pw_32",
+      "interest_tags": [
+        "Adventure"
+      ]
+    },
+    {
+      "username": "Bot_33",
+      "password": "pw_33",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Shopping"
+      ]
+    },
+    {
+      "username": "Bot_34",
+      "password": "pw_34",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_35",
+      "password": "pw_35",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_36",
+      "password": "pw_36",
+      "interest_tags": [
+        "Adventure",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_37",
+      "password": "pw_37",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_38",
+      "password": "pw_38",
+      "interest_tags": [
+        "Nightlife"
+      ]
+    },
+    {
+      "username": "Bot_39",
+      "password": "pw_39",
+      "interest_tags": [
+        "Beach",
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_40",
+      "password": "pw_40",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_41",
+      "password": "pw_41",
+      "interest_tags": [
+        "Beach",
+        "Nature",
+        "Culture",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_42",
+      "password": "pw_42",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_43",
+      "password": "pw_43",
+      "interest_tags": [
+        "Adventure",
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_44",
+      "password": "pw_44",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Culture",
+        "Nightlife",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_45",
+      "password": "pw_45",
+      "interest_tags": [
+        "Beach",
+        "Nature",
+        "Nightlife",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_46",
+      "password": "pw_46",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_47",
+      "password": "pw_47",
+      "interest_tags": [
+        "Culture",
+        "History",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_48",
+      "password": "pw_48",
+      "interest_tags": [
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_49",
+      "password": "pw_49",
+      "interest_tags": [
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_50",
+      "password": "pw_50",
+      "interest_tags": [
+        "Beach",
+        "Culture",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_51",
+      "password": "pw_51",
+      "interest_tags": [
+        "Adventure",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_52",
+      "password": "pw_52",
+      "interest_tags": [
+        "Beach",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_53",
+      "password": "pw_53",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "Culture",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_54",
+      "password": "pw_54",
+      "interest_tags": [
+        "Nature",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_55",
+      "password": "pw_55",
+      "interest_tags": [
+        "Culture",
+        "Nightlife",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_56",
+      "password": "pw_56",
+      "interest_tags": [
+        "Adventure",
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_57",
+      "password": "pw_57",
+      "interest_tags": [
+        "Culture",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_58",
+      "password": "pw_58",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Culture",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_59",
+      "password": "pw_59",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_60",
+      "password": "pw_60",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_61",
+      "password": "pw_61",
+      "interest_tags": [
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_62",
+      "password": "pw_62",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "Culture",
+        "Nightlife",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_63",
+      "password": "pw_63",
+      "interest_tags": [
+        "Beach",
+        "Nature",
+        "Culture",
+        "History",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_64",
+      "password": "pw_64",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Culture"
+      ]
+    },
+    {
+      "username": "Bot_65",
+      "password": "pw_65",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "Culture",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_66",
+      "password": "pw_66",
+      "interest_tags": [
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_67",
+      "password": "pw_67",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_68",
+      "password": "pw_68",
+      "interest_tags": [
+        "Beach",
+        "Culture",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_69",
+      "password": "pw_69",
+      "interest_tags": [
+        "Culture",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_70",
+      "password": "pw_70",
+      "interest_tags": [
+        "Beach",
+        "Culture",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_71",
+      "password": "pw_71",
+      "interest_tags": [
+        "Beach",
+        "Culture",
+        "Nightlife",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_72",
+      "password": "pw_72",
+      "interest_tags": [
+        "Adventure",
+        "Culture",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_73",
+      "password": "pw_73",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "Culture",
+        "History",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_74",
+      "password": "pw_74",
+      "interest_tags": [
+        "Beach"
+      ]
+    },
+    {
+      "username": "Bot_75",
+      "password": "pw_75",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_76",
+      "password": "pw_76",
+      "interest_tags": [
+        "Adventure"
+      ]
+    },
+    {
+      "username": "Bot_77",
+      "password": "pw_77",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nightlife",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_78",
+      "password": "pw_78",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_79",
+      "password": "pw_79",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "Culture",
+        "Nightlife"
+      ]
+    },
+    {
+      "username": "Bot_80",
+      "password": "pw_80",
+      "interest_tags": [
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_81",
+      "password": "pw_81",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Culture",
+        "Shopping"
+      ]
+    },
+    {
+      "username": "Bot_82",
+      "password": "pw_82",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "History",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_83",
+      "password": "pw_83",
+      "interest_tags": [
+        "Adventure",
+        "Culture",
+        "Nightlife",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_84",
+      "password": "pw_84",
+      "interest_tags": [
+        "Culture",
+        "History",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_85",
+      "password": "pw_85",
+      "interest_tags": [
+        "Nature",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_86",
+      "password": "pw_86",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_87",
+      "password": "pw_87",
+      "interest_tags": [
+        "Beach",
+        "Nature",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_88",
+      "password": "pw_88",
+      "interest_tags": [
+        "Nightlife",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_89",
+      "password": "pw_89",
+      "interest_tags": [
+        "Culture",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_90",
+      "password": "pw_90",
+      "interest_tags": [
+        "Adventure",
+        "Nature"
+      ]
+    },
+    {
+      "username": "Bot_91",
+      "password": "pw_91",
+      "interest_tags": [
+        "Nature",
+        "Culture"
+      ]
+    },
+    {
+      "username": "Bot_92",
+      "password": "pw_92",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_93",
+      "password": "pw_93",
+      "interest_tags": [
+        "Adventure",
+        "Nature",
+        "Culture",
+        "History",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_94",
+      "password": "pw_94",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_95",
+      "password": "pw_95",
+      "interest_tags": [
+        "Shopping"
+      ]
+    },
+    {
+      "username": "Bot_96",
+      "password": "pw_96",
+      "interest_tags": [
+        "Culture",
+        "Nightlife",
+        "History",
+        "Shopping",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_97",
+      "password": "pw_97",
+      "interest_tags": [
+        "Beach",
+        "Nature",
+        "Culture",
+        "History"
+      ]
+    },
+    {
+      "username": "Bot_98",
+      "password": "pw_98",
+      "interest_tags": [
+        "Nature",
+        "Culture",
+        "History",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_99",
+      "password": "pw_99",
+      "interest_tags": [
+        "Beach",
+        "Culture",
+        "Nightlife",
+        "Cuisine"
+      ]
+    },
+    {
+      "username": "Bot_100",
+      "password": "pw_100",
+      "interest_tags": [
+        "Beach",
+        "Adventure",
+        "Nature",
+        "Culture",
+        "Cuisine"
+      ]
+    }
+  ]
+}
