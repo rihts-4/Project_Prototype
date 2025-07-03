@@ -8,6 +8,8 @@ To run the project prototype, use the following commands in your terminal:
 - `cd frontend` — Navigate to the project directory
 - `npm i` — Installing dependencies
 - `npm run server` — Run server on one terminal
+  **IMPORTANT**
+  _RUN SERVER FIRST, AND WAIT ~30 SECONDS BEFORE RUNNING APP_
 - Create a new terminal without deleting previous one
 - `npm run start` — Run app on another terminal
 - Scan QR Code using Expo Go app
