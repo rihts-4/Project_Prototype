@@ -5,7 +5,7 @@
 
 To run the project prototype, use the following commands in your terminal:
 
-- `cd PBL3frontend-main` — Navigate to the project directory
+- `cd frontend` — Navigate to the project directory
 - `npm i` — Installing dependencies
 - `npm run server` — Run server on one terminal
 - Create a new terminal without deleting previous one
