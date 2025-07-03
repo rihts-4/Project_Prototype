@@ -13,7 +13,7 @@ This file is for the frontend to use
 const axios = require('axios');
 const { use } = require('react');
 
-const BASE_URL = "http://192.168.100.32:8000"; // Replace with the correct IP and port
+const BASE_URL = "http://localhost:8000"; // Replace with the correct IP and port
 
 async function Connect() {
     try {
