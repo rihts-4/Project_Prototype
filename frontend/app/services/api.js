@@ -14,6 +14,11 @@ const axios = require('axios');
 const { use } = require('react');
 
 const BASE_URL = "http://localhost:8000"; // Replace with the correct IP and port
+/*
+Change the baseURL in frontend/app/services/api.js to your local API:
+When starting server, you should see "Use this as baseURL:", f"http://{local_ip}:8000"
+replace 'localhost' with {local_ip}
+*/
 
 async function Connect() {
     try {
