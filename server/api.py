@@ -31,7 +31,7 @@ def get_local_ip():
         local_ip = '127.0.0.1'  # Fallback
     finally:
         s.close()
-    print(local_ip)
+    print("Use this as baseURL:", f"http://{local_ip}:8000")
 
 # Basic GET route
 @app.route('/', methods=['GET'])
