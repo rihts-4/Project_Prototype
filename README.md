@@ -16,6 +16,7 @@ To run the project prototype, use the following commands in your terminal:
   # When starting server, you should see "Use this as baseURL:", f"http://{local_ip}:8000"
   # Use that one
 - Create a new terminal without deleting previous one
+- `cd frontend` — Navigate to the project directory
 - `npm run start` — Run app on another terminal
 - Scan QR Code using Expo Go app
 - `https://expo.dev/go`: link for Expo Go app
