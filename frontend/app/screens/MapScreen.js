@@ -5,7 +5,7 @@ import * as Location from 'expo-location';
 
 
 import { FontAwesome5 } from '@expo/vector-icons';
-import { GetSpots } from '../services/api';
+import { GetSpotMap } from '../services/api';
 
 export default function MapScreen() {
   const [location, setLocation] = useState(null);
@@ -25,7 +25,7 @@ export default function MapScreen() {
       setLocation(currentLocation.coords);
 
       try {
-        const response = await GetSpots();
+        const response = await GetSpotMap();
         if (response) {
           setObjects(response);
           handlePanDrag();

@@ -171,6 +171,10 @@ class DatabaseManager:
         
         return all_spots
     
+    def get_spots_map(self):
+        all_spots = [spot.to_json() for spot in self._session.execute(select(TouristSpot)).scalars().all()]
+        return all_spots
+    
     def get_spot_by_id(self, spot_id):
         spot = self._session.execute(select(TouristSpot).where(TouristSpot.spot_id == spot_id)).scalar_one_or_none()
         if spot:

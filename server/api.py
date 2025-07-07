@@ -275,6 +275,17 @@ def save_e_api(user_id):
 def all_objects():
     return db.get_all()
 
+@app.route('/api/spots', methods=['GET'])
+def get_spots():
+    try:
+        spots = db.get_spots_map()
+        return jsonify(spots), 200
+    except ValueError as e:
+        return jsonify({
+            "status": "error",
+            "message": str(e)
+        }), 404
+
 # Error handlers
 @app.errorhandler(404)
 def not_found(error):

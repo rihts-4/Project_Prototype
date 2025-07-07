@@ -13,7 +13,7 @@ This file is for the frontend to use
 const axios = require('axios');
 const { use } = require('react');
 
-const BASE_URL = "http://localhost:8000"; // Replace with the correct IP and port
+const BASE_URL = "http:/localIP:8000"; // Replace with the correct IP and port
 /*
 Change the baseURL in frontend/app/services/api.js to your local API:
 When starting server, you should see "Use this as baseURL:", f"http://{local_ip}:8000"
@@ -84,6 +84,16 @@ async function Delete(userId) {
 async function GetSpots(userId) {
     try {
         const response = await axios.get(`${BASE_URL}/api/spots/${userId}`);
+        return response.data; // Ensure the response data is returned
+    } catch (error) {
+        console.error("GetSpots error:", error);
+        throw error; // Throw the error to handle it in the calling function
+    }
+}
+
+async function GetSpotMap() {
+    try {
+        const response = await axios.get(`${BASE_URL}/api/spots`);
         return response.data; // Ensure the response data is returned
     } catch (error) {
         console.error("GetSpots error:", error);
@@ -242,5 +252,6 @@ module.exports = {
     GetFriends,
     AddFriend,
     Interests,
-    Friends
+    Friends,
+    GetSpotMap
 }

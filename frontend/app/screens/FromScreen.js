@@ -152,9 +152,10 @@ export default function FormScreen({ route }) {
     })
 
     try {
-      const fullUser = Interests(user.user_id, sendAnswers)
-      Alert.alert('Success', 'Your preferences have been submitted successfully!');
-      navigation.replace('MainTabs', { user: fullUser });
+      Interests(user.user_id, sendAnswers).then(data => {
+        Alert.alert('Success', 'Your preferences have been submitted successfully!');
+        navigation.replace('MainTabs', { user: data });
+      })
     } catch (error) {
       Alert.alert('Error', 'An error occurred while submitting your preferences. Please try again later.');
       console.error('Submission error:', error);
