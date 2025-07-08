@@ -41,6 +41,11 @@ function SignInScreen({ navigation }) {
       }
     }
 
+  const handelBack = () => {
+    navigation.replace('Login');
+    
+  };
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>3Scapey</Text>
@@ -73,7 +78,15 @@ function SignInScreen({ navigation }) {
         <Text style={styles.buttonText}>Sign In</Text>
       </TouchableOpacity>
 
+      <View style={styles.divider}>
+            <View style={styles.line} />
+            <Text style={styles.orText}>Or</Text>
+            <View style={styles.line} />
+        </View>
       
+        <TouchableOpacity style={[styles.button, styles.signinButton]} onPress={handelBack}>
+            <Text style={styles.buttonText}>Back</Text>
+        </TouchableOpacity>
 
       
     </View>

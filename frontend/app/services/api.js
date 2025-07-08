@@ -13,7 +13,7 @@ This file is for the frontend to use
 const axios = require('axios');
 const { use } = require('react');
 
-const BASE_URL = "http:/localIP:8000"; // Replace with the correct IP and port
+const BASE_URL = "http://{localip}:8000"; // Replace with the correct IP and port
 /*
 Change the baseURL in frontend/app/services/api.js to your local API:
 When starting server, you should see "Use this as baseURL:", f"http://{local_ip}:8000"
@@ -63,7 +63,7 @@ async function Interests(userId, formData) {
     try {
         const response = await axios.post(`${BASE_URL}/api/interests/${userId}`,{
             user_id: userId,
-            interest_tags: formData
+            form_data: formData
         });
         return response.data
     } catch (error) {
@@ -217,8 +217,8 @@ async function addEventToList(userId, eventId) {
 
 async function Friends(interests) {
     try {
-        const response = await axios.post(`${BASE_URL}/api/compare`, {
-            interest_tags: interests
+        const response = await axios.post(`${BASE_URL}/api/recommend`, {
+            survey: interests
         });
         return response.data; // Ensure the response data is returned
     } catch (error) {

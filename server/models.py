@@ -17,6 +17,7 @@ class User(Base):
     travel_history: Mapped[list[str]] = mapped_column(JSON, default=list, nullable=True)
     personal_list: Mapped[list[str]] = mapped_column(JSON, default=list, nullable=True)
     friends: Mapped[list[str]] = mapped_column(JSON, default=list, nullable=True)
+    survey: Mapped[list[int]] = mapped_column(JSON, default=list, nullable=True)
     
     def to_json(self):
         return{
@@ -26,7 +27,8 @@ class User(Base):
             "interest_tags": self.interest_tags,
             "travel_history": self.travel_history,
             "personal_list": self.personal_list,
-            "friends": self.friends
+            "friends": self.friends,
+            "survey": self.survey
         }
     
     def from_json(data):
@@ -37,7 +39,8 @@ class User(Base):
             interest_tags=data.get("interest_tags", []),
             travel_history=data.get("travel_history", []),
             personal_list=data.get("personal_list", []),
-            friends=data.get("friends", [])
+            friends=data.get("friends", []),
+            survey=data.get("survey", [])
         )
 
 

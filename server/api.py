@@ -4,8 +4,7 @@ from datetime import datetime
 import numpy as np
 import json
 from main import DatabaseManager
-from friend import get_recommendations_from_interests, compare_user_with_users, convert_interest_tags_to_vector
-from sklearn.metrics.pairwise import cosine_similarity
+from newfriend import cluster
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -137,31 +136,16 @@ def add_friend(user_id):
 @app.route('/api/recommend', methods=['POST'])
 def recommend_from_interests():
     body = request.get_json()
-    interest_tags = body.get("interest_tags")
+    survey = body.get("survey")
+    # print("Survey data received:", survey)
     
-    if not interest_tags:
-        return jsonify({"error": "Missing interest_tags"}), 400
+    if not survey:
+        return jsonify({"error": "Missing survey data"}), 400
     
-    try:
-        result = get_recommendations_from_interests(interest_tags)
-        return jsonify(result), 200
-    except Exception as e:
-        return jsonify({"error": f"Calculation error: {str(e)}"}), 500
-
-# FRIEND COMPARISON ROUTE
-@app.route('/api/compare', methods=['POST'])
-def compare_with_users():
-    body = request.get_json()
-    interest_tags = body.get("interest_tags")
-    
-    if not interest_tags:
-        return jsonify({"error": "Missing interest_tags"}), 400
-    
-    try:
-        result = compare_user_with_users(interest_tags)
-        return jsonify(result), 200
-    except Exception as e:
-        return jsonify({"error": f"Calculation error: {str(e)}"}), 500
+    print("Calculating recommendations...")
+    result = cluster(survey)
+    # print(result)
+    return jsonify(result), 200
     
 @app.route('/api/login', methods=['POST'])
 def login_user():
@@ -179,16 +163,16 @@ def login_user():
 @app.route('/api/interests/<uuid:user_id>', methods=['POST'])
 def interests(user_id):
     body = request.get_json()
-    interest_tags = body.get('interest_tags', [])
+    form_data = body.get('form_data', [])
 
-    if not interest_tags:
+    if not form_data:
         return jsonify({
             "status": "error",
             "message": "User ID and interest tags are required"
         }), 400
     
     try:
-        updated_user = db.update_interests(user_id, interest_tags)
+        updated_user = db.update_interests(user_id, form_data)
         return updated_user, 200
     except ValueError as e:
         return jsonify({

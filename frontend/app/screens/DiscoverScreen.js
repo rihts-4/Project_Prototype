@@ -85,6 +85,15 @@ export default function DiscoverScreen({ user }) {
         {/* <MaterialIcons name="menu" size={24} color="#999" /> */}
       </View>
 
+          <View style={styles.header}>
+                  <View>
+                    <View>
+                      <Text style={styles.title}>Based on your interests</Text>
+                      {/* <Text style={styles.userEmail}>{displayEmail}</Text> */}
+                    </View>
+                  </View>
+              </View>
+
       {/* Loading Spinner */}
       {loading ? (
         <ActivityIndicator size="large" color="#007AFF" style={{ marginTop: 20 }} />
@@ -177,4 +186,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#888',
   },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginLeft: 30,
+    marginBottom: 0,
+  }
 });

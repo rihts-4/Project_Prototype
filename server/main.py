@@ -91,21 +91,35 @@ class DatabaseManager:
         self._session.execute(delete(User).where(User.user_id == user_id))
         self._session.commit()
     
-    def update_interests(self, user_id, interest_tags):
+    def update_interests(self, user_id, form_data):
         user = self._session.execute(select(User).where(User.user_id == user_id)).scalar_one_or_none()
         if not user:
             raise ValueError("User not found")
         
-        array = np.array([interest_tags])
-        print(np.shape(array))
+        array = np.array([form_data])
+        # print(np.shape(array))
         
         tags = get_interest_tags(array)
+        survey = form_data
+        for i, code in enumerate(tags[1]):
+            survey.insert(i+12, code)
 
-        print(tags)
+        print(tags[0], survey)
 
-        user.interest_tags = tags
+        new_user = User.from_json({
+            "user_id": user.user_id,
+            "username": user.username,
+            "password": user.password,
+            "friends": user.friends,
+            "survey": survey,
+            "interest_tags": tags[0],
+            "travel_history": user.travel_history,
+            "personal_list": user.personal_list
+        })
+        self._session.delete(user)
+        self._session.add(new_user)
         self._session.commit()
-        return user.to_json()
+        return new_user.to_json()
     
     def check_duplicates(self, username):
         user = self._session.execute(select(User).where(User.username == username)).scalar_one_or_none()
@@ -133,6 +147,7 @@ class DatabaseManager:
             "username": user.username,
             "password": user.password,
             "friends": friends,
+            "survey": user.survey,
             "interest_tags": user.interest_tags,
             "travel_history": user.travel_history,
             "personal_list": user.personal_list
@@ -199,6 +214,7 @@ class DatabaseManager:
             "username": user.username,
             "password": user.password,
             "friends": user.friends,
+            "survey": user.survey,
             "interest_tags": user.interest_tags,
             "travel_history": travel_history,
             "personal_list": user.personal_list
@@ -228,6 +244,8 @@ class DatabaseManager:
             "user_id": user.user_id,
             "username": user.username,
             "password": user.password,
+            "friends": user.friends,
+            "survey": user.survey,
             "interest_tags": user.interest_tags,
             "travel_history": user.travel_history,
             "personal_list": personal_list
@@ -286,6 +304,7 @@ class DatabaseManager:
             "username": user.username,
             "password": user.password,
             "interest_tags": user.interest_tags,
+            "survey": user.survey,
             "travel_history": user.travel_history,
             "personal_list": personal_list
         })

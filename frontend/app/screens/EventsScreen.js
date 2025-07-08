@@ -16,8 +16,6 @@ import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { GetEvents } from '../services/api';
 
-const WIKIMEDIA_API_BASE_URL = 'https://en.wikipedia.org/w/api.php';
-
 export default function EventsScreen({ user }) {
   const navigation = useNavigation();
   const [search, setSearch] = useState('Japan festivals'); // Default search for events
@@ -84,6 +82,15 @@ export default function EventsScreen({ user }) {
           onSubmitEditing={handleSearch}
         />
       </View>
+
+      <View style={styles.header}>
+                        <View>
+                          <View>
+                            <Text style={styles.title}>Based on your interests</Text>
+                            {/* <Text style={styles.userEmail}>{displayEmail}</Text> */}
+                          </View>
+                        </View>
+                    </View> 
 
       {/* Loading Spinner */}
       {loading ? (
@@ -178,4 +185,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#888',
   },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginLeft: 30,
+    marginBottom: 0,
+  }
 });
