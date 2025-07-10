@@ -45,6 +45,17 @@ const MainNav = ({ route }) => {
         headerShown: false, // Hide header for all tab screens
       })}
     >
+      <Tab.Screen name="Map" component={MapScreen} />
+      <Tab.Screen
+        name="Connect"
+        children={() => <ConnectScreen user={user} />}
+      />
+      <Tab.Screen
+        name="Account"
+        // Pass a function to component prop to inject additional props
+        // This ensures AccountScreen gets the username from MainNav's route
+        children={() => <AccountScreen user={user} />}
+      />
       <Tab.Screen
         name="Discover"
         children={() => <DiscoverScreen user={user} />}
@@ -53,18 +64,7 @@ const MainNav = ({ route }) => {
         name="Events"
         children={() => <EventsScreen user={user} />}
       />
-      <Tab.Screen
-        name="Connect"
-        children={() => <ConnectScreen user={user} />}
-      />
       {/* Pass the username as initialParams to the Account screen */}
-      <Tab.Screen
-        name="Account"
-        // Pass a function to component prop to inject additional props
-        // This ensures AccountScreen gets the username from MainNav's route
-        children={() => <AccountScreen user={user} />}
-      />
-      <Tab.Screen name="Map" component={MapScreen} />
     </Tab.Navigator>
   );
 };

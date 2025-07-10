@@ -68,7 +68,7 @@ export default function ConnectScreen({ user }) {
         <FlatList
           data={friends}
           renderItem={renderFriendItem}
-          keyExtractor={(item) => String(item.user_id)}
+          keyExtractor={(item) => String(item)}
           contentContainerStyle={styles.friendsList}
         />
       )}

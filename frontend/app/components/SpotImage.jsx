@@ -1,4 +1,7 @@
 import { StyleSheet, Image } from "react-native";
+import { Dimensions } from 'react-native';
+
+const { width } = Dimensions.get('window');
 
 export default function SpotImage({ spotName, imageNumber }) {
     let image_1;
@@ -286,7 +289,7 @@ export default function SpotImage({ spotName, imageNumber }) {
         return (
             <Image
                 source={image_2}
-                style={styles.discoverImage}
+                style={styles.topImage}
             />
         );
     } else {
@@ -301,5 +304,11 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     marginBottom: 5,
     resizeMode: 'cover',
-  }
+  },
+  topImage: {
+    width: width,
+    height: width * 0.6,
+    resizeMode: 'cover',
+    marginBottom: 15,
+  },
 })

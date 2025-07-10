@@ -11,9 +11,8 @@ This file is for the frontend to use
 
 
 const axios = require('axios');
-const { use } = require('react');
 
-const BASE_URL = "http://{localip}:8000"; // Replace with the correct IP and port
+const BASE_URL = "http://192.168.100.32:8000"; // Replace with the correct IP and port
 /*
 Change the baseURL in frontend/app/services/api.js to your local API:
 When starting server, you should see "Use this as baseURL:", f"http://{local_ip}:8000"
@@ -54,6 +53,7 @@ async function Register(username, password) {
         return response.data; // Ensure the response data is returned
     } catch (error) {
         console.error("Registration error:", error);
+        throw error;
     }
 }
 
@@ -68,6 +68,7 @@ async function Interests(userId, formData) {
         return response.data
     } catch (error) {
         console.error("Error:", error);
+        throw error; // Throw the error to handle it in the calling function
     }
 }
 
