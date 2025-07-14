@@ -12,7 +12,7 @@ This file is for the frontend to use
 
 const axios = require('axios');
 
-const BASE_URL = "http://172.30.225.143:8000"; // Replace with the correct IP and port
+const BASE_URL = "http://local:8000"; // Replace with the correct IP and port
 /*
 Change the baseURL in frontend/app/services/api.js to your local API:
 When starting server, you should see "Use this as baseURL:", f"http://{local_ip}:8000"
