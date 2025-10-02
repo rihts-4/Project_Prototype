@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
   },
   topImage: {
     width: width,
-    height: width * 0.6,
+    height: width * 0.5,
     resizeMode: 'cover',
     marginBottom: 15,
   },

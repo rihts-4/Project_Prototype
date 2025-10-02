@@ -17,7 +17,7 @@ const formData = [
   {
     id: 'FORM_A',
     question: 'What age ranges are present in your travel group?',
-    type: 'multiple',
+    type: 'single',
     options: [
       { key: '0', label: '0-19' },
       { key: '1', label: '20-39' },
